@@ -28,7 +28,7 @@ export default memo(function Navbar() {
           Dashboard
         </Link>
         <Link to="/page" style={linkStyle("/page")}>
-          My Song Page
+          Songs List Page
         </Link>
         {user ? (
           <Button color="inherit" onClick={logout}>

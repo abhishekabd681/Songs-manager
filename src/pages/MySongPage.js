@@ -18,7 +18,7 @@ function getUserDataKey(email) {
 }
 function initUserData() {
   return {
-    pageName: "My Song Page",
+    pageName: "Song List Page",
     songs: [
       // {
       //   id: 1,
